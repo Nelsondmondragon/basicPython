@@ -2,7 +2,7 @@ def palindromo(palabra):
     palabra = palabra.replace(' ','')
     palabra = palabra.lower()
     palabra_invertida = palabra[::-1]
-    return palabra==palabra_invertida;
+    return palabra==palabra_invertida; 
 
 
 def run():
